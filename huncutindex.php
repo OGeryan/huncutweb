@@ -7,16 +7,23 @@
     <title>Blender</title>
     <link href="huncutstyle.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color: blue;">
-    <header class="HEAD">
+<body>
+    <header class="HEAD STTEXT">
         head
     </header>
 
-    <main class="MAIN">
+    <div class="PANEL-LEFT STTEXT">
+        ad
+    </div>
+    <div class="PANEL-RIGHT STTEXT">
+        ad
+    </div>
+
+    <main class="MAIN STTEXT">
         blend
     </main>
 
-    <footer class="FOOT">
+    <footer class="FOOT STTEXT">
         feet
     </footer>
 </body>

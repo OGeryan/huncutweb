@@ -1,9 +1,59 @@
-body
+.STTEXT
 {
-    background-color: rgb(56,56,56);
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.HEAD
+{
+    padding: 0;
+    margin: auto;
+    background-color: rgb(61,61,61);
+    width: 100%;
+    height: 100px;
 }
 
 .MAIN
 {
-    background-color: rbg(61,61,61);
+    padding: 0;
+    margin: auto;
+    background-color: rgb(85,85,85);
+    width: 50%;
+    height: 750px;
+}
+
+.FOOT
+{
+    padding: 0;
+    margin: auto;
+    background-color: rgb(61,61,61);
+    width: 100%;
+    height: 100px;
+}
+
+.PANEL-LEFT
+{
+    border: 1px red solid;
+    display: block;
+    float: left;
+    width: 25%;
+    height: 750px;
+}
+
+.PANEL-RIGHT
+{
+    border: 1px red solid;
+    display: block;
+    float: right;
+    width: 25%;
+    height: 750px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40,40,40);
 }
