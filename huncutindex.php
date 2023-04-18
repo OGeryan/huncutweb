@@ -7,7 +7,7 @@
     <title>Blender</title>
     <link href="huncutstyle.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body style="background-color: blue;">
     <header class="HEAD">
         head
     </header>
