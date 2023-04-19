@@ -13,6 +13,9 @@
     color: white;
     font-size: 110%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .BTEXT
@@ -23,6 +26,23 @@
     font-size: 150%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 	font-style: bold;
+}
+
+.TLDECCONT
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.TLDEC
+{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border: 2px darkgray solid;
+    border-radius: 5px;
+
 }
 
 .HEAD
@@ -46,6 +66,16 @@
     height: 750px;
 }
 
+.LONG-MAIN
+{
+    padding: 0;
+    margin: auto;
+	margin-top: 0;
+    background-color: rgb(85,85,85);
+    width: 50%;
+    height: 1000px;
+}
+
 .FOOT
 {
     padding: 0;
@@ -61,7 +91,7 @@
     display: block;
     float: left;
     width: 25%;
-    height: 750px;
+    height: 500px;
 }
 
 .PANEL-RIGHT
@@ -69,11 +99,13 @@
     display: block;
     float: right;
     width: 25%;
-    height: 750px;
+    height: 500px;
 }
 
 .HL-INLINE
 {
+    color: brown;
+    text-decoration: none;
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -98,14 +130,26 @@ iframe
 	display: border;
 }
 
-img, video
+.MIDIMAGE, video
 {
 	margin: auto;
-	width: 500px;
+	width: 450px;
 	height: auto;	
 }
 
 ol
 {
 	margin: auto;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .PANEL-RIGHT, .PANEL-LEFT
+    {
+        visibility: collapse;
+    }
+    .MAIN
+    {
+        height: 850px;
+    }
 }
