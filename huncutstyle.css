@@ -11,8 +11,18 @@
 	margin-top:auto;
     text-align: center;
     color: white;
-    font-size: medium;
+    font-size: 110%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.BTEXT
+{
+	margin-top:auto;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: bold;
 }
 
 .HEAD
@@ -48,7 +58,6 @@
 
 .PANEL-LEFT
 {
-    border: 1px red solid;
     display: block;
     float: left;
     width: 25%;
@@ -57,7 +66,6 @@
 
 .PANEL-RIGHT
 {
-    border: 1px red solid;
     display: block;
     float: right;
     width: 25%;
@@ -67,6 +75,14 @@
 .HL-INLINE
 {
 	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+h1
+{
+	margin-top: 0;
 }
 
 body
@@ -74,4 +90,22 @@ body
     margin: 0;
     padding: 0;
     background-color: rgb(40,40,40);
+}
+
+iframe
+{
+	height: 100%;
+	display: border;
+}
+
+img, video
+{
+	margin: auto;
+	width: 500px;
+	height: auto;	
+}
+
+ol
+{
+	margin: auto;
 }
