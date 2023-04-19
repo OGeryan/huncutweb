@@ -6,10 +6,21 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.TTEXT
+{
+	margin-top:auto;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .HEAD
 {
     padding: 0;
     margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
     background-color: rgb(61,61,61);
     width: 100%;
     height: 100px;
@@ -19,6 +30,7 @@
 {
     padding: 0;
     margin: auto;
+	margin-top: 0;
     background-color: rgb(85,85,85);
     width: 50%;
     height: 750px;
@@ -28,6 +40,7 @@
 {
     padding: 0;
     margin: auto;
+	margin-top: 0;
     background-color: rgb(61,61,61);
     width: 100%;
     height: 100px;
@@ -49,6 +62,11 @@
     float: right;
     width: 25%;
     height: 750px;
+}
+
+.HL-INLINE
+{
+	display: inline;
 }
 
 body
