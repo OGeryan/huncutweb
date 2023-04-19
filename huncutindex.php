@@ -10,19 +10,22 @@
 </head>
 <body>
     <header class="HEAD STTEXT">
+		<div class="TLDECCONT">
+			<img src="https://geryan.hu/uploads/huncutdec.png" class="TLDEC">
+		</div>
         <h1>Blender</h1>
 		<div>
-		<a class="HL-INLINE" href="huncutindex.php">Alapok</a>
-		<a class="HL-INLINE" href="huncuttutorial.php">Tutoriál</a>
-		<a class="HL-INLINE" href="huncutsimulation.php">Szimulációk</a>
+			<a class="HL-INLINE" href="huncutindex.php">Alapok</a>
+			<a class="HL-INLINE" href="huncuttutorial.php">Tutoriál</a>
+			<a class="HL-INLINE" href="huncutsimulation.php">Szimulációk</a>
 		</div>
     </header>
 
     <div class="PANEL-LEFT STTEXT">
-        <img height="100%" id="leftpanel"> </img>
+        <img class="PANELIMAGE" id="leftpanel"> </img>
     </div>
     <div class="PANEL-RIGHT STTEXT">
-		<img height="100%" id="rightpanel"> </img>
+		<img class="PANELIMAGE" id="rightpanel"> </img>
     </div>
 
     <main class="MAIN STTEXT">
@@ -30,14 +33,16 @@
 		<br> <br>
 		<a class="BTEXT" href="https://blender.org">Töltsd le a blendert.</a>
 		<br> <br>
-		<img src="https://geryan.hu/uploads/blendershowcase.png">
+		<img class="MIDIMAGE" src="https://geryan.hu/uploads/blendershowcase.png">
 		<br>
 		<video src="https://geryan.hu/uploads/demo.mp4" type="video/mp4" controls> </video>
 	</main>
 
     <footer class="FOOT TTEXT">
-        Blender is a free and open-source 3D graphics software that allows users to create models, animations, textures, simulations, and visualizations. The program is widely used in game development, animation films, and architecture. Blender has a wide range of tools and features that users can customize and expand. In recent years, Blender has made significant progress and has become one of the most popular 3D graphics software.
-    </footer>
+		<p>
+        	Blender is a free and open-source 3D graphics software that allows users to create models, animations, textures, simulations, and visualizations. The program is widely used in game development, animation films, and architecture. Blender has a wide range of tools and features that users can customize and expand. In recent years, Blender has made significant progress and has become one of the most popular 3D graphics software.
+		</p>
+	</footer>
 </body>
 	<script>
 	var i = 0;
