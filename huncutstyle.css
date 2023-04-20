@@ -1,5 +1,6 @@
 .STTEXT
 {
+	padding: 3px;
     text-align: center;
     color: white;
     font-size: large;
@@ -8,6 +9,7 @@
 
 .TTEXT
 {
+	padding: 3px;
 	margin-top:auto;
     text-align: center;
     color: white;
@@ -20,6 +22,8 @@
 
 .BTEXT
 {
+	padding-top: 2px;
+	padding-bottom: 2px;
 	margin-top:auto;
     text-align: center;
     color: white;
@@ -133,7 +137,8 @@ iframe
 .MIDIMAGE, video
 {
 	margin: auto;
-	width: 450px;
+	max-width: 450px;
+	width: 100%;
 	height: auto;	
 }
 
@@ -142,7 +147,7 @@ ol
 	margin: auto;
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 900px)
 {
     .PANEL-RIGHT, .PANEL-LEFT
     {
