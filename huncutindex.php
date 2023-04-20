@@ -14,7 +14,7 @@
 			<img src="https://geryan.hu/uploads/huncutdec.png" class="TLDEC">
 		</div>
         <h1>Blender</h1>
-		<div>
+		<div class="MENUTHING">
 			<a class="HL-INLINE" href="huncutindex.php">Alapok</a>
 			<a class="HL-INLINE" href="huncuttutorial.php">Tutoriál</a>
 			<a class="HL-INLINE" href="huncutsimulation.php">Szimulációk</a>
