@@ -29,7 +29,7 @@
     </div>
 
     <main class="LONG-MAIN STTEXT">
-        A Blenderben vannak számos lehetőségeid, arra, hogy szimulálj egy fizikai eseményt.
+        A Blenderben van lehetőséged arra, hogy szimulálj egy fizikai eseményt. Ezek lehetnek 
 		<br> <br>
 		<ol>
 			<li>Fizikai szimuláció </li>
