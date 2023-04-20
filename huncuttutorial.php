@@ -30,7 +30,7 @@
 
     <main class="LONG-MAIN STTEXT">
 		<br>
-        Blender az egy multifunkcionális eszköz. Sok lehetőséged van arra, hogy készíts digitális művészetet.
+        Blender az egy multifunkcionális eszköz. Számos lehetősége van a felhasználónak arra, hogy egy digitális műalkotást készítsen.
 		<br> <br>
 		<img class="MIDIMAGE" src="https://geryan.hu/uploads/Battering_Ram_1_Render_2_Compressed.png">
 		<br>
