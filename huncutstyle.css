@@ -114,6 +114,9 @@
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: center;
+	font-variant: small-caps;
+	color: whitesmoke;
+	font-family: system-ui;
 }
 
 h1
@@ -157,4 +160,20 @@ ol
     {
         height: 850px;
     }
+}
+
+h1{
+	margin: 5px;
+	margin-top: 10px;
+	font-family: system-ui;
+}
+
+.MENUTHING{
+	border: solid rgb(255, 128, 0) 2px;
+	display: inline-block;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 5px;
+	background-color: rgb(255, 128, 0);
 }
