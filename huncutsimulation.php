@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+		<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +46,8 @@
 
     <footer class="FOOT TTEXT">
 		<p>
-        	Blender is a free and open-source 3D graphics software that allows users to create models, animations, textures, simulations, and visualizations. The program is widely used in game development, animation films, and architecture. Blender has a wide range of tools and features that users can customize and expand. In recent years, Blender has made significant progress and has become one of the most popular 3D graphics software.
+        	Copyright HuncutPicúrok ©2023 ALL RIGHTS RESERVED. <br>		
+		<a href="intermission.html" class="TRDEC">Nem tetszik a weboldal?</a>
 		</p>
 	</footer>
 </body>
@@ -81,3 +82,6 @@
 	}
 	</script>
 </html>
+	
+		
+	

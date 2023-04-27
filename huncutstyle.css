@@ -1,4 +1,4 @@
-.STTEXT
+	.STTEXT
 {
 	padding: 3px;
     text-align: center;
@@ -41,12 +41,28 @@
 
 .TLDEC
 {
+    margin-top: 5px;
+    margin-left: 5px;
     position: absolute;
     width: 75px;
     height: 75px;
     border: 2px darkgray solid;
     border-radius: 5px;
 
+}
+
+
+.TRDECCONT
+{
+    display: inline-block;
+}
+
+.TRDEC
+{
+    line-height: 0px;
+    text-align: right;
+    width: 75px;
+    height: 75px;
 }
 
 .HEAD
@@ -63,6 +79,7 @@
 .MAIN
 {
     padding: 0;
+padding-top:1rem;
     margin: auto;
 	margin-top: 0;
     background-color: rgb(85,85,85);
@@ -150,7 +167,7 @@ ol
 	margin: auto;
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1250px)
 {
     .PANEL-RIGHT, .PANEL-LEFT
     {
@@ -158,12 +175,20 @@ ol
     }
     .MAIN
     {
-        height: 850px;
+        height: 1000px;
     }
+	br
+	{
+		height: 0px;
+	}
+	.TLDEC
+	{
+		visibility: collapse;
+	}
 }
 
 h1{
-	margin: 5px;
+	margin: -5px;
 	margin-top: 10px;
 	font-family: system-ui;
 }
@@ -176,4 +201,10 @@ h1{
 	padding-right: 8px;
 	border-radius: 5px;
 	background-color: rgb(255, 128, 0);
-}
+}	
+		
+		
+		
+		
+		
+	
